@@ -46,7 +46,7 @@ function maxOfThree(x, y, z) {
     }
 }
 
-console.log(maxOfThree(14,20,8));
+console.log(maxOfThree(14, 20, 8));
 
 // ---------------------
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
@@ -65,13 +65,13 @@ function isVowel(char) {
             return true;
             break;
         case "i":
-        return true;
+            return true;
             break;
-        case "o": 
-        return true;
+        case "o":
+            return true;
             break;
         case "u":
-        return true;
+            return true;
             break;
         default:
             return false;
@@ -118,7 +118,7 @@ function rovarspraket(phrase) {
 // Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
 // ---------------------
 
-var myNumbers = [1,2,3,4];
+var myNumbers = [1, 2, 3, 4];
 
 function sum(someArray) {
     "use strict";
@@ -155,8 +155,6 @@ function reverse(s) {
 
     //...
 }
-
-
 console.log(reverse('hello'));
 
 // ---------------------
@@ -166,6 +164,7 @@ console.log(reverse('hello'));
 function findLongestWord(words) {
     "use strict";
     //...
+    
 }
 
 // ---------------------
